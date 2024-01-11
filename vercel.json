@@ -25,11 +25,5 @@
             }
       ],
 
-      "rewrites": [
-            { "source": "/(.*)", "destination": "index.js" },
-            {
-                  "source": "/:match*",
-                  "destination": "public/:match*"
-            }
-      ]
+      "rewrites": [{ "source": "/(.*)", "destination": "index.js" }]
 }

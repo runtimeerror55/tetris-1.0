@@ -25,6 +25,9 @@ let connectedRooms = {};
 app.get("/", (req, res) => {
       res.sendFile(__dirname + "/public/indexFiles/html/index.html");
 });
+app.get("/indexFiles", (req, res) => {
+      res.sendFile(__dirname + "/public/indexFiles/css/style.css");
+});
 
 app.set("views engine", "ejs");
 app.use("/indexFiles", express.static("public/indexFiles"));
