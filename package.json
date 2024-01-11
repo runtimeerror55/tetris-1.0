@@ -4,7 +4,7 @@
   "description": "multiplayer game",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon index.js"
   },
   "author": "aakash",
   "license": "MIT",
